@@ -43,7 +43,6 @@ The module does not override PrestaShop core files and does not send a separate 
 - Mobile safe-area support
 - Persian back-office translations
 - No core override
-- Upgrade script for preserving existing settings
 
 ## Configuration
 
@@ -76,17 +75,6 @@ modules/ssbstickysmartbuy/
 
 Then install the module from the PrestaShop Module Manager.
 
-## Updating from 1.0.9
-
-Use PrestaShop's normal module upgrade action. Version `1.1.0` includes an upgrade script that:
-
-- Preserves existing settings
-- Converts the button text to multilingual configuration
-- Removes deprecated configuration keys
-- Registers `displayBeforeBodyClosingTag` when available
-
-Do **not** reset the module during an upgrade, because resetting restores default settings.
-
 ## Front-office behavior
 
 The module renders only on product pages. The sticky bar becomes eligible when either:
@@ -112,8 +100,8 @@ Mobile visibility is determined in the browser from the configured viewport brea
 
 ```text
 ssbstickysmartbuy.php
+classes/
 translations/
-upgrade/
 views/
   css/
   js/
