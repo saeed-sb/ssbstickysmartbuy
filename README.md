@@ -1,4 +1,4 @@
-# SSB Sticky Smart Buy
+# Sticky Smart Buy Button for Prestashop
 
 A lightweight, mobile-first sticky **Add to cart** bar for PrestaShop product pages.
 
