@@ -3,12 +3,12 @@
 A lightweight, mobile-first sticky **Add to cart** bar for PrestaShop product pages.
 
 ![PrestaShop](https://img.shields.io/badge/PrestaShop-1.7%20%7C%208%20%7C%209-24b9d7)
-![Version](https://img.shields.io/badge/version-1.1.0-blue)
+![Version](https://img.shields.io/badge/version-1.1.1-blue)
 ![PHP](https://img.shields.io/badge/PHP-7.1%2B-777bb4)
 
 - **Module name:** `ssbstickysmartbuy`
 - **Author:** Saeed Sattar Beglou
-- **Current version:** `1.1.0`
+- **Current version:** `1.1.1`
 - **Compatibility target:** PrestaShop 1.7, 8 and 9
 
 ## Overview

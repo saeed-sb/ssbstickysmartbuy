@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.1.1 - 2026-10-20
+
+- Resolve the purchase bar template using the module entry point instead of the extracted trait filename.
+- Preserve appearance settings, native add-to-cart behavior and duplicate-render protection.
+- Add a module XML manifest and a code-only upgrade.
+
 ## 1.1.0
 
 - Refactored configuration handling to use a single defaults source.
