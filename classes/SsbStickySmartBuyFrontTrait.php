@@ -110,7 +110,7 @@ trait SsbStickySmartBuyFrontTrait
             'ssb_show_discount_percentage' => (bool) $this->getConfigValue(self::CFG_SHOW_DISCOUNT_PERCENTAGE, 1),
         ));
 
-        return $this->display(__FILE__, 'views/templates/hook/bar.tpl');
+        return $this->display(dirname(__DIR__) . '/ssbstickysmartbuy.php', 'views/templates/hook/bar.tpl');
     }
 
     protected function normalizeProductPriceData(array $product)
