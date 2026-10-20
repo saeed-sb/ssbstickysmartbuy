@@ -1,4 +1,4 @@
-name: Validate and publish site source
+name: Validate and publish Sticky Smart Buy 1.1.1
 
 on:
   push:

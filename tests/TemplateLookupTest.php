@@ -15,6 +15,8 @@ class FixtureSmarty {
     public function assign($values) { $this->values = array_merge($this->values, $values); }
 }
 class Module {
+    // Native PrestaShop Module declares these inherited metadata properties.
+    public $name, $tab, $version, $author, $need_instance, $bootstrap, $ps_versions_compliancy, $displayName, $description;
     public $context;
     public $displayCalls = [];
     public function __construct() { $this->context = (object) ['smarty' => new FixtureSmarty(), 'language' => (object) ['id' => 1], 'controller' => (object) ['php_self' => 'product']]; }
