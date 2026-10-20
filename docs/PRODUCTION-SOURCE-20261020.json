@@ -1,0 +1,37 @@
+{
+  "schema": 1,
+  "captured_date": "2026-10-20",
+  "sites": [
+    "iphonechi"
+  ],
+  "repository": "saeed-sb/ssbstickysmartbuy",
+  "base_commit": "5741a2c23d09f0b12fd62f6b28105108e25a0b21",
+  "purpose": "Preserve installed source differences without replacing the default branch or deploying changes.",
+  "scope": "Runtime module source differences against the default branch; generated runtime files, data and credentials excluded.",
+  "unrecorded_files": [
+    "ssbstickysmartbuy.php"
+  ],
+  "files": [
+    {
+      "path": "ssbstickysmartbuy.php",
+      "sha": "5fccf68aceca5da78e90f88a4cd2af64a4bc109d",
+      "unrecorded": true
+    }
+  ],
+  "reconciliation": {
+    "production_snapshot_commit": "14971351a9d8db6dd13c6d395ded80a6d135714e",
+    "base_preserved": "5741a2c23d09f0b12fd62f6b28105108e25a0b21",
+    "strategy": "Preserve the modular entrypoint and all three existing traits; correct only the template module identity in the front trait.",
+    "runtime_changes": [
+      "classes/SsbStickySmartBuyFrontTrait.php"
+    ],
+    "validation": {
+      "php": "8.1.34",
+      "original_failure_reproduced": true,
+      "isolated_render_checks": 10,
+      "checks_passed": 10,
+      "php_syntax_checks": "passed",
+      "production_files_changed": false
+    }
+  }
+}
