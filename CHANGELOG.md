@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased - 2026-10-30
+
+- Replace deprecated Tools::displayPrice calls with PrestaShop locale price formatting for fallback product prices. Preserve existing amount calculations, currency selection and locale rounding.
+
 ## 1.1.1 - 2026-10-20
 
 - Resolve the purchase bar template using the module entry point instead of the extracted trait filename.

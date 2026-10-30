@@ -201,8 +201,8 @@ trait SsbStickySmartBuyFrontTrait
 
         return array(
             'name' => (string) $name,
-            'price' => Tools::displayPrice($price, $this->context->currency),
-            'regular_price' => $hasDiscount ? Tools::displayPrice($regularPrice, $this->context->currency) : '',
+            'price' => \Tools::getContextLocale(\Context::getContext())->formatPrice($price, $this->context->currency->iso_code),
+            'regular_price' => $hasDiscount ? \Tools::getContextLocale(\Context::getContext())->formatPrice($regularPrice, $this->context->currency->iso_code) : '',
             'has_discount' => $hasDiscount,
             'discount_percentage' => $discountLabel,
             'discount_amount' => '',
